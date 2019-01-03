@@ -10,17 +10,15 @@ class UrlShortener:
 
     def get_short_link(self, long_url):
         url = "https://{}.page.link/?link={}&apn=com.{}.android&ibi=com.{}.ios"
+
         long_dynamic_link = url.format(
             self.domain, long_url, self.domain, self.domain)
-        print(long_dynamic_link)
 
         payload = {
             "longDynamicLink": long_dynamic_link
         }
         response = requests.post(self.api_url, json=payload)
-
         json_data = response.json()
-        print(json_data)
 
         if response.status_code != 200:
             return json_data
