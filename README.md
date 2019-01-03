@@ -12,7 +12,7 @@ Be sure you have the following installed on your development machine:
 
 ## Usage
 
-```bash
+```python
 from url_shortener.url_shortener import UrlShortener
 
 url_shortener = UrlShortener('your_api_key', 'domain_name')
