@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="python_firebase_url_shortener",
-    version="0.1.0",
+    version="1.0.0",
     author="saadmk11",
     author_email="saad.mk112@gmail.com",
     description="A Python Client for Firebase Dynamic Links to Shorten URLs.",

@@ -14,7 +14,7 @@ Be sure you have the following installed on your development machine:
 Install the package:
 
 ```bash
-    pip install python-firebase-url-shortener
+pip install python-firebase-url-shortener
 ```
 
 ## Usage
