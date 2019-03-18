@@ -6,9 +6,16 @@ This is a Python Client for [Firebase Dynamic Links](https://firebase.google.com
 
 Be sure you have the following installed on your development machine:
 
-+ Python >= 3.6.3
-+ requests
++ Python >= 3.6
++ pip
 
+## Installation
+
+Install the package:
+
+```bash
+    pip install python-firebase-url-shortener
+```
 
 ## Usage
 
